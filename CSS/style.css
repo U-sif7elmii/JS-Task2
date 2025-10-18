@@ -4,6 +4,9 @@
   --main-color:rgb(135, 66, 182);
   --main-color2:#EE2A5F;
 }
+.space{
+    margin-top: 150px;
+}
 
 
 /* Nav Bar */
@@ -50,4 +53,38 @@ nav a:hover{
 .homePage .content button:hover{
     background-color: var(--main-color2);
     text-decoration: underline;
+}
+
+/* About Page */
+/* .aboutPage{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.497) , rgba(0, 0, 0, 0.377)) , url(../imgs/about1.jpg);
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+} */
+.aboutPage .row1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.497) , rgba(0, 0, 0, 0.377)) , url(../imgs/about1.jpg);
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+.aboutPage .row1 .content span{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 8px;
+}
+.aboutPage .row1 .content h3{
+    font-size: 65px;
+}
+.aboutPage .row1 .content p{
+    color: rgba(255, 255, 255, 0.8);
+}
+.aboutPage .row2 .item p{
+    font-size:60px ;
+}
+.aboutPage .row2 .item span{
+    color: rgb(165, 165, 165);
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
