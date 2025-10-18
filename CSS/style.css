@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+* {
+  font-family: "Source Code Pro", monospace;
+  --main-color:rgb(135, 66, 182);
+  --main-color2:#EE2A5F;
+}
+
+
+/* Nav Bar */
+.navPosition{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav .navbar-brand{
+    font-size: 30px;
+}
+nav a{
+    color: var(--main-color) !important;
+    transition: .5s;
+}
+nav a:hover{
+    color: var(--main-color2) !important;
+}
+
+/* Home Page */
+.homePage{
+    min-height: 90vh;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.497) , rgba(0, 0, 0, 0.377))  , url(../imgs/clothes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.homePage .content h3{
+    font-size: 63px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.homePage .content p{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.homePage .content button{
+    background-color: var(--main-color);
+    transition: .5s;
+}
+.homePage .content button:hover{
+    background-color: var(--main-color2);
+    text-decoration: underline;
+}
